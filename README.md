@@ -1,87 +1,108 @@
-# 📊 Análisis de Ventas – Retail de Ropa (2023–2024)
+# Análisis de Ventas en Retail de Ropa (2023–2024)
 
-## 🧠 Descripción del Proyecto
+## Resumen Ejecutivo
 
-Este proyecto tiene como objetivo analizar el rendimiento de ventas de una empresa de retail de ropa, con el fin de identificar patrones de compra, evaluar el desempeño de productos y detectar oportunidades de mejora en la estrategia comercial.
+Este proyecto analiza el rendimiento de ventas de una tienda de ropa con el objetivo de identificar oportunidades de mejora en la toma de decisiones comerciales.
 
-## 🎯 Problema de Negocio
+A través del uso de SQL, Python y Power BI, se trabajó en la limpieza, transformación y visualización de los datos, permitiendo detectar patrones clave en el comportamiento de clientes y productos.
 
-La empresa necesita comprender:
+Entre los principales hallazgos:
 
-* Qué categorías de productos generan más ingresos
-* Qué clientes aportan mayor valor
-* Cómo evolucionan las ventas a lo largo del tiempo
-* Qué productos no están teniendo rotación
+* Un grupo reducido de productos concentra gran parte de los ingresos
+* Existen productos sin ventas que representan oportunidades de mejora
+* Algunos clientes generan un alto porcentaje del total vendido
+* Se detectaron problemas de calidad de datos que fueron corregidos
 
-## 🛠️Herramientas Utilizadas
+Este análisis permite sentar bases para una mejor estrategia comercial basada en datos.
 
-* SQL (modelado y consultas)
-* Python (Pandas – limpieza y transformación de datos)
-* Power BI (visualización y dashboard interactivo)
+---
 
-## 🔄 Proceso de Análisis
+## Problema Empresarial
 
-### 1. 📥 Extracción de Datos
+En muchos negocios de retail, las decisiones se toman sin un análisis claro de los datos disponibles.
 
-Se trabajó con tres tablas principales:
+El objetivo de este proyecto fue responder preguntas clave como:
 
-* Clientes
-* Productos
-* Ventas
+* ¿Qué productos generan mayor ingreso?
+* ¿Qué clientes aportan más valor?
+* ¿Cómo evolucionan las ventas en el tiempo?
+* ¿Existen productos con bajo rendimiento?
 
-Estas fueron estructuradas en un modelo relacional en SQL.
+Resolver estas preguntas permite optimizar inventario, mejorar estrategias de venta y enfocarse en lo que realmente genera impacto.
 
-### 2. 🧹 Limpieza de Datos (Python)
+---
 
-Se realizaron las siguientes tareas:
+## Metodología
 
-* Corrección de formatos de fecha
-* Manejo de valores nulos (uso de valores faltantes en lugar de eliminación)
-* Resolución de problemas de integridad referencial
-* Estandarización de variables categóricas
+El proyecto se desarrolló siguiendo un flujo de trabajo típico en análisis de datos:
 
-### 3. 🔧 Transformación
+### 1. Extracción y modelado (SQL)
 
-Se crearon métricas clave:
+Se trabajó con tres tablas principales (clientes, productos y ventas), estructuradas en un modelo relacional para facilitar el análisis.
 
-* Ventas Totales
-* Cantidad de productos vendidos
-* Ticket Promedio
-* Crecimiento mensual
+### 2. Limpieza y transformación (Python)
 
-### 4. 📊 Visualización (Power BI)
+Se utilizaron herramientas de Python (Pandas) para:
 
-Se desarrolló un dashboard interactivo basado en modelo estrella, permitiendo:
+* Corregir formatos de fecha
+* Manejar valores nulos sin perder información
+* Resolver problemas de integridad referencial
+* Crear nuevas variables como el total de ventas
 
-* Análisis por categoría
-* Segmentación por cliente
-* Evaluación geográfica
-* Exploración temporal
+### 3. Visualización y análisis (Power BI)
 
-## 📈 Principales Insights
+Se construyó un dashboard interactivo utilizando un modelo estrella, permitiendo explorar los datos desde distintas perspectivas.
 
-* Algunas categorías concentran la mayor parte de los ingresos
-* Existe un grupo reducido de clientes que genera gran volumen de ventas
-* Se identificaron productos sin ventas, lo que indica posibles problemas de posicionamiento
-* Se detectaron inconsistencias en los datos que fueron corregidas durante la limpieza
-* Las ventas presentan variaciones a lo largo del tiempo que pueden ser analizadas para planificación futura
+---
 
-## 🖼️ Dashboard
+## Skills Utilizadas
+
+* SQL (consultas, joins, validación de datos)
+* Python (Pandas – limpieza y transformación)
+* Power BI (modelado de datos y visualización)
+* Data Cleaning & Data Modeling
+* Análisis exploratorio de datos (EDA)
+* Storytelling con datos
+
+---
+
+## Resultados y Recomendaciones Empresariales
+
+A partir del análisis realizado, se identificaron los siguientes puntos clave:
+
+* Los productos más vendidos concentran la mayor parte de los ingresos → se recomienda reforzar su promoción
+* Existen productos sin ventas → revisar estrategia de pricing o visibilidad
+* Un pequeño grupo de clientes aporta gran valor → oportunidad de fidelización
+* La calidad de los datos impacta directamente en el análisis → importante mejorar procesos de captura de datos
+
+Estas recomendaciones pueden ayudar a mejorar la toma de decisiones y aumentar la eficiencia del negocio.
+
+---
+
+## Dashboard
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/a98040bb-34e2-474e-b3c0-188a4071dae6" />
 
 
-## 🧩 Conclusión
+El dashboard permite analizar de forma interactiva:
 
-El análisis permitió comprender el comportamiento de ventas desde múltiples perspectivas, destacando la importancia de la calidad de los datos y la correcta estructuración del modelo para obtener insights accionables.
+* Evolución de ventas en el tiempo
+* Rendimiento por categoría
+* Productos más vendidos
+* Comportamiento de clientes
 
-## 🚀 Próximos Pasos
+---
 
-* Incorporar más fuentes de datos
-* Profundizar en segmentación de clientes
-* Implementar análisis predictivo
+## Próximos Pasos
 
-## 👨‍💻 Autor
+* Incorporar más datos históricos para análisis más profundo
+* Aplicar segmentación avanzada de clientes
+* Explorar modelos predictivos de ventas
+* Integrar más variables (promociones, estacionalidad, etc.)
+
+---
+
+## Autor
 
 Jonathan Vallejos
-Data Analyst en formación
+Aspirante a Data Analyst
