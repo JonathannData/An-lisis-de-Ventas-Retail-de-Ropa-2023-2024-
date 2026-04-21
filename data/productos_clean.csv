@@ -1,0 +1,26 @@
+producto_id,nombre_producto,categoria,precio,marca
+101,Camiseta Básica,Remeras,15,Zara
+102,Jeans Slim,Pantalones,40,Levis
+103,Zapatillas Urbanas,Calzado,60,Nike
+104,Chaqueta Invierno,Abrigos,120,Adidas
+105,Vestido Casual,Vestidos,35,H&M
+106,Camisa Formal,Remeras,25,Zara
+107,Pantalón Cargo,Pantalones,50,Nike
+108,Zapatillas Running,Calzado,80,Adidas
+109,Abrigo Largo,Abrigos,150,Zara
+110,Vestido Elegante,Vestidos,70,H&M
+111,Camiseta Oversize,Remeras,20,Desconocido
+112,Jeans Regular,Pantalones,45,Levis
+113,Zapatillas Classic,Calzado,55,Nike
+114,Chaqueta Cuero,Abrigos,200,Zara
+115,Vestido Verano,Vestidos,30,H&M
+116,Camisa Casual,Remeras,22,Zara
+117,Pantalón Jogger,Pantalones,35,Nike
+118,Zapatillas Street,Calzado,65,Adidas
+119,Abrigo Corto,Abrigos,110,Zara
+120,Vestido Fiesta,Vestidos,90,H&M
+121,Camiseta Sport,Remeras,18,Nike
+122,Pantalón Denim,Pantalones,48,Levis
+123,Zapatillas Air,Calzado,95,Nike
+124,Chaqueta Ligera,Abrigos,85,Adidas
+125,Vestido Floral,Vestidos,40,H&M
